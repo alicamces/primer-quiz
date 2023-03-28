@@ -27,7 +27,7 @@
     background-color:rgb(231, 231, 199);
     width: 100%;
     float: left;
-    height: 700px;
+    height: 1000px;
  }
 
 .menu{
@@ -42,7 +42,7 @@
 
 .dashboard{
     background-color:rgb(231, 231, 199);
-    width: 48%;
+    width: 42%;
     float: left;
     min-height: 650px;
     margin-top: 5px;
