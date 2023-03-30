@@ -458,3 +458,54 @@ a{
   .contenidoAdopcion{
     float: left;
   }
+.historia{
+   
+        background-color:rgb(231, 231, 199);
+        width: 75%;
+        float: left;
+        min-height: 300px;
+        margin-top: 30px;
+       margin-left: 20px;
+       margin-right: 10px;
+       text-align: center;
+      
+}
+.valores{
+    background-color:rgb(231, 231, 199);
+    width: 90%;
+    float: left;
+    min-height: 300px;
+    margin-top: 5px;
+    text-align: center;
+    display: flex;
+    
+}
+
+
+.historia-caja {
+    background-color: #fff;
+    min-height: 150px;
+    border-radius: 20px;
+   
+}
+
+.historia-caja h2 {
+    color: #444;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.historia-caja h4 {
+    color: #444;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.mision{
+    width: 40%;
+    background-color: #fff;
+}
+.vision{
+    width: 40%;
+    background-color: #fff;
+}
