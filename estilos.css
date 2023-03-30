@@ -194,6 +194,11 @@
     min-width: 30px;
 }
 
+
+.contenido4{
+    min-width:5px;
+}
+
 .general{
     position: absolute;
     width: auto;
