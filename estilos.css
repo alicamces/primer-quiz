@@ -188,9 +188,14 @@
 
 .contenido4 img{
 
-    height: auto;
-    width: 10%;
+    height: 10%;
+    width:10%;
     
+}
+
+
+.contenido4{
+    min-width:5px;
 }
 
 .general{
