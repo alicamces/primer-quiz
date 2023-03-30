@@ -473,7 +473,7 @@ a{
 .historia{
    
         background-color:rgb(231, 231, 199);
-        width: 75%;
+        width: 55%;
         float: left;
         min-height: 300px;
         margin-top: 30px;
@@ -495,6 +495,7 @@ a{
     width: 25%;
     display: inline-block;
     margin-right: -20px;
+    float: left;
 }
 
 .historia-caja h2 {
