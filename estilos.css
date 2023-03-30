@@ -1,8 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: sans-serif;
-    
-    
+
  }
  body{
     background-color: white;
@@ -33,8 +32,6 @@
     padding: 15px;   
     Justify-content: space-between;
     float: left;
-    position: sticky;
-  
  }
 
 
@@ -124,8 +121,7 @@
     min-width: 70px;
     float: left;
     min-height: 650px;
-    margin-top: 5px;
-    
+    margin-top: 5px; 
     
 }
 
@@ -190,14 +186,10 @@
 .contenido4 img{
 
     height: auto;
-    width:20% ;
+    width:20%; 
     min-width: 30px;
 }
 
-
-.contenido4{
-    min-width:5px;
-}
 
 .general{
     position: absolute;
@@ -230,6 +222,9 @@ width: 55%;
     font-style: italic;
 }
 
+.nombre:hover{
+    color: #36a95a;
+}
 
 @media(max-width: 700px){
 
@@ -457,4 +452,19 @@ a{
 
   .contenidoAdopcion{
     float: left;
+  }
+
+
+  .adoptar{
+    background-color: #36a95a;
+    margin-left: 300px;
+    margin-right: 50px;
+    width: 60%;
+    margin-top: 40px;
+    text-align: center;
+  border-style:double;
+ 
+  }
+  .adoptar h1{
+    color: black;
   }
