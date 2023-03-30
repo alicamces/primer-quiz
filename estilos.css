@@ -121,6 +121,7 @@
 .menu{
     background-color:rgb(231, 231, 199);
     width: 10%;
+    min-width: 70px;
     float: left;
     min-height: 650px;
     margin-top: 5px;
@@ -189,8 +190,8 @@
 .contenido4 img{
 
     height: auto;
-    width: 10%;
-    
+    width:20% ;
+    min-width: 30px;
 }
 
 .general{
