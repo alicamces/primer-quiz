@@ -143,7 +143,7 @@
 }
 .rss{
     background-color:rgb(231, 231, 199);
-    width: 30%;
+    width: 31%;
     float: left;
     min-height: 650px;
     margin-top: 5px;
@@ -201,7 +201,7 @@
 
 .general{
     position: absolute;
-    width: auto;
+    width: 100%;
 }
 
 .lm{
