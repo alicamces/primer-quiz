@@ -242,7 +242,7 @@
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
     .contenedor-carta{
         width: 250px;
         max-width: 1200px;
