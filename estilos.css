@@ -559,3 +559,23 @@ a{
   .dashboard-2 video{
     max-width: 400px;
   }
+
+
+@media (min-width: 479px) and (max-width: 1099px) { 
+    
+        .dashboard-2 {
+            width: 100%;
+            padding-left: 260px;
+        }
+    
+    }
+
+ 
+@media (max-width: 480px) { 
+    .dashboard-2 {
+        width: 100%;
+        padding-left: 200px;
+    }
+
+ }
+ 
