@@ -151,7 +151,11 @@
     background-color:rgb(231, 231, 199);
     width: 100%;
     float: left;
+<<<<<<< HEAD
     height: 1300px;
+=======
+    height: 1700px;
+>>>>>>> 6ff6cbeed45bdba0ccfd2280728f2be5faddc040
  }
 
 .menu{
@@ -553,6 +557,7 @@ a{
     justify-content: center;
     margin-top: 150px;
     background-color: #efefef;
+    border-radius: 10px;
 
 }
 
