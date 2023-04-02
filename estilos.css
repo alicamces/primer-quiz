@@ -148,18 +148,14 @@
      }
  }
  .main{ 
-    background-color:rgb(231, 231, 199);
+    background-color:rgb(248, 247, 227);
     width: 100%;
     float: left;
-<<<<<<< HEAD
-    height: 1300px;
-=======
     height: 1700px;
->>>>>>> 6ff6cbeed45bdba0ccfd2280728f2be5faddc040
  }
 
 .menu{
-    background-color:rgb(231, 231, 199);
+    background-color:rgb(248, 247, 227);
     width: 10%;
     min-width: 70px;
     float: left;
@@ -169,19 +165,20 @@
 }
 
 .dashboard{
-    background-color:rgb(231, 231, 199);
+    background-color:rgb(248, 247, 227);
     width: 52%;
     float: left;
     min-height: 350px;
-    margin-top: 5px;
+    margin-top: 50px;
    margin-left: 5px;
    margin-right: 5px;
-
+ 
     
   
 }
+
 .rss{
-    background-color:rgb(231, 231, 199);
+    background-color:rgb(248, 247, 227);
     width: 36%;
     float: left;
     min-height: 50px;
@@ -311,10 +308,9 @@ align-items: center;
 display: flex;
 float: left;
 min-width: 10%;
- border: 1px solid #8be7ba; /*anchura, estilo y color borde*/
 padding: 10px; /*espacio alrededor texto*/
-background-color: rgba(200, 252, 200, 0.807);; /*color botón*/
-color: #ffffff; /*color texto*/
+background-color: rgba(93, 75, 211, 0.973);; /*color botón*/
+color:#fff; /*color texto*/
 text-decoration: none; /*decoración texto*/
 text-transform: uppercase; /*capitalización texto*/
 font-family: 'Helvetica', sans-serif; /*tipografía texto*/
@@ -322,6 +318,9 @@ border-radius: 10px; /*bordes redondos*/
 
 }
 
+.boton{
+    color:#fff;
+}
 
 a{
     text-decoration: none;
@@ -465,8 +464,8 @@ a{
     text-decoration: none;
   }
   .dropdown-content a:hover {
-    color: black;
-    background-color: #36a95a;
+    color: rgb(254, 254, 254);
+    background-color:rgba(93, 75, 211, 0.973);
   }
   
   .gallery-container{
@@ -536,7 +535,7 @@ a{
     color: black;
   }
   .dashboard-2{
-    background-color:rgb(231, 231, 199);
+    background-color:rgb(248, 247, 227);
     width: 35%;
     float: left;
     max-width:35% ;
@@ -548,7 +547,7 @@ a{
   
 }
 .rss-2{
-    background-color:rgb(231, 231, 199);
+    background-color:rgb(248, 247, 227);
     width: 590px;
     max-width: 70%;
     float: left; 
@@ -556,7 +555,7 @@ a{
     text-align: center;
     justify-content: center;
     margin-top: 150px;
-    background-color: #efefef;
+    background-color: #ffffff;
     border-radius: 10px;
 
 }
