@@ -186,6 +186,7 @@
 }
 
 
+
 .contenedor-carta{
     width: 100%;
     max-width: 1200px;
@@ -512,7 +513,11 @@ a{
     }
   }
 
-
+  @media(min-width: 540px){
+    .contAdop{
+        grid-template-columns: 2,1fr;
+    }
+          }
   .contenidoAdopcion{
     float: left;
   }
@@ -520,14 +525,44 @@ a{
 
   .adoptar{
     background-color: #36a95a;
-    margin-left: 300px;
-    margin-right: 50px;
-    width: 60%;
-    margin-top: 40px;
+    margin-left: 10px;
+    width: 65%;
+    height: 450px;
+    min-width: 65px;
+    min-height: 100px;
+    margin-top: 30px;
+    border-style:double;
+    float: left;
     text-align: center;
-  border-style:double;
+  
  
   }
   .adoptar h1{
     color: black;
   }
+.content1{
+    background-color: #36a95a;
+    float: left;
+    width: 30%;
+}
+
+
+.contAdop{
+    background-color: green;
+    width: 90%;
+    height: 30%;
+    float: left;
+   
+
+ }
+ .adopmaster{
+    background-color: black;
+    width: 30%;
+    min-width: 30px;
+    min-height: 300px;
+    margin-top: 30px; 
+    margin-left: 5px;
+    margin-right: 12px;
+    float: right;
+ }
+
