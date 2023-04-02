@@ -154,6 +154,13 @@
     min-height: 650px;
     height: 2100px;
  }
+ .main-2{ 
+    background-color:rgb(248, 247, 227);
+    width: 100%;
+    float: left;
+    min-height: 1100px;
+    height: 1000px;
+ }
 
 .menu{
     background-color:rgb(248, 247, 227);
@@ -504,6 +511,12 @@ a{
   }
   **/
 
+  @media(min-width: 400px){
+
+    .gallery-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
   @media(min-width: 768px){
 
     .gallery-container{
