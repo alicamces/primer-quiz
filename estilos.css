@@ -552,13 +552,11 @@ a{
 
 
 .contAdop{
-    background-color: gray;
+    background-color:rgb(248, 247, 227);
     width: 90%;
     height: 30%;
     float: left;
     display: flex;
-   
-
  }
  .adopmaster{
     background-color: #36a95a;
@@ -570,6 +568,10 @@ a{
     margin-right: 12px;
     float: right;
     overflow: hidden;
+    border-style:double;
     
+ }
+ .requisitos h3{
+    text-align: center;
  }
 
