@@ -294,9 +294,6 @@ list-style-image: linear-gradient(to left bottom, rgb(0, 255, 0), rgba(0, 7, 5, 
 
 
 
-
-
-
 .numero{
 float: left;
 width: 45%;
@@ -516,15 +513,15 @@ a{
     }
   }
 
-  @media(min-width: 540px){
-    .contAdop{
-        grid-template-columns: 2,1fr;
-    }
-          }
-  .contenidoAdopcion{
-    float: left;
-  }
+ 
 
+/* css adopcion */
+
+  @media (max-width: 480px) {
+    .adoptar p {
+      font-size: 12px;
+    }
+    }
 
   .adoptar{
     background-color: #36a95a;
@@ -537,12 +534,15 @@ a{
     border-style:double;
     float: left;
     text-align: center;
-  
- 
+    overflow: hidden;
   }
   .adoptar h1{
     color: black;
   }
+
+
+
+
 .content1{
     background-color: #36a95a;
     float: left;
@@ -551,21 +551,24 @@ a{
 
 
 .contAdop{
-    background-color: green;
+    background-color: gray;
     width: 90%;
     height: 30%;
     float: left;
+    display: flex;
    
 
  }
  .adopmaster{
-    background-color: black;
+    background-color: #36a95a;
     width: 30%;
     min-width: 30px;
-    min-height: 300px;
+    height: 450px;
     margin-top: 30px; 
-    margin-left: 5px;
+    margin-left: 15px;
     margin-right: 12px;
     float: right;
+    overflow: hidden;
+    
  }
 
