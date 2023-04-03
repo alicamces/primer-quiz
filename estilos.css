@@ -24,7 +24,7 @@
  }
 
  .header{
-    background-color: rgb(245, 247, 245);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     min-height: 70px;
     display: flex;
@@ -185,6 +185,13 @@
     
   
 }
+.dashboard h1
+{
+    text-align:center;
+    margin-left: -100px;
+    
+}
+
 
 .rss{
     background-color:rgb(248, 247, 227);
