@@ -161,6 +161,7 @@
     min-height: 650px;
     height: 1000px;
  }
+ 
 
 .menu{
     background-color:rgb(248, 247, 227);
@@ -538,7 +539,7 @@ a{
     }
 
   .adoptar{
-    background-color: #36a95a;
+    background-color: rgb(217, 224, 217);
     margin-left: 10px;
     width: 65%;
     height: 450px;
@@ -555,8 +556,6 @@ a{
   }
 
 
-
-
 .content1{
     background-color: #36a95a;
     float: left;
@@ -570,9 +569,10 @@ a{
     height: 30%;
     float: left;
     display: flex;
+    
  }
  .adopmaster{
-    background-color: #36a95a;
+    background-color: rgb(217, 224, 217);
     width: 30%;
     min-width: 30px;
     height: 450px;
@@ -580,7 +580,7 @@ a{
     margin-left: 15px;
     margin-right: 12px;
     float: right;
-    overflow: hidden;
+    overflow: scroll;
     border-style:double;
     
  }
@@ -588,3 +588,53 @@ a{
     text-align: center;
  }
 
+@media screen and (max-width:700px){
+    .contAdop{
+        width: 100%;
+        max-width: 700px;
+        margin: 2px;
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-row-gap: 2px;
+        font-size: 1rem;
+        height: 60%;
+       max-height: 70%;
+       align-items: center;
+     
+    }
+}
+
+@media screen and (max-width:500px){
+    .contAdop{
+        width: 100%;
+        max-width: 700px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2px;
+        font-size: 1rem;
+        height: 60%;
+        max-height: 70%;
+        
+        
+ 
+    }
+}
+
+@media screen and (max-width:50px){
+    .adopmaster{
+        width: 100%;
+        max-width: 700px;
+        height: 10%;
+        min-height: 30%;
+        overflow: hidden;
+        margin-top: -200%;
+    }
+}
+
+.main-3{ 
+    background-color:rgb(248, 247, 227);
+    width: 100%;
+    float: left;
+    max-height: 1650px;
+    height: 100%;
+ }
