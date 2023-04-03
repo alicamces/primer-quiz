@@ -653,7 +653,8 @@ a{
     padding-left: 27%;  
     width: 100%;
     float: right;
-    padding-top: -35%;
+    padding-top: 5%;
+    
     
 }
 .form h2{
@@ -664,8 +665,20 @@ a{
 {
     border-style: double;
     width: 60%;
-   min-height: 90%;
-   
+ 
+}
+
+@media screen and (max-width:310px) {
+    .formulario{
+        min-width: 105%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:630px) {
+    .formulario{
+        min-width: 105%;
+        overflow: hidden;
+    }
 }
 
 .Nombreform{
@@ -788,7 +801,6 @@ a{
  .mision{
     width: 43%;
     background-color: white;
-    float: left;
     display: inline-block;
     margin-left: 50px;
     margin-right: 15px;
@@ -821,7 +833,7 @@ a{
  .vision{
     width: 43%;
    background-color: white;
-   float: left;
+    
     display: inline-block;
     margin-right: 50px;
     margin-left: 15px;
