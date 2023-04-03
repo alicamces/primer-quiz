@@ -639,3 +639,51 @@ a{
     max-height: 1650px;
     height: 100%;
  }
+ .dashboard-2{
+    background-color:rgb(248, 247, 227);
+    width: 35%;
+    float: left;
+    max-width:35% ;
+    margin-top: 50px;
+    margin-left: 5px;
+     display: flex;
+    justify-content: center;
+    
+  
+}
+.rss-2{
+    background-color:rgb(248, 247, 227);
+    width: 590px;
+    max-width: 70%;
+    float: left; 
+    min-height: 300px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+
+  .dashboard-2 video{
+    max-width: 400px;
+  }
+
+
+@media (min-width: 479px) and (max-width: 1099px) { 
+    
+        .dashboard-2 {
+            width: 100%;
+            padding-left: 260px;
+        }
+    
+    }
+
+ 
+@media (max-width: 480px) { 
+    .dashboard-2 {
+        width: 100%;
+        padding-left: 200px;
+    }
+
+ }
